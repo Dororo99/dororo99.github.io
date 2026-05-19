@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+Contact
+======
+* Email: [ldh991014@hanyang.ac.kr](mailto:ldh991014@hanyang.ac.kr)
+* GitHub: [Dororo99](https://github.com/Dororo99)
+* Affiliation: Department of Computer Science, Hanyang University
+
 Education
 ======
 * B.S. student, Department of Computer Science, Hanyang University, Seoul, Korea, Mar. 2023 - Present
@@ -93,7 +99,3 @@ English proficiency
 Certifications
 ======
 * Korean History Proficiency Test Level 3
-
-Download
-======
-* [CV PDF](/files/260403_cv.pdf)

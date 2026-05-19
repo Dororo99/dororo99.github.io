@@ -24,7 +24,7 @@ Selected highlights
 
 Links
 ======
-- [CV PDF](/files/260403_cv.pdf)
+- [CV](/cv/)
 - [Projects](/portfolio/)
 - [Publications](/publications/)
 - [GitHub](https://github.com/Dororo99)

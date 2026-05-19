@@ -21,7 +21,6 @@ The local preview runs at `http://localhost:4000`.
 - `_pages/publications.html` - publications index
 - `_portfolio/` - project writeups
 - `_publications/` - publication entries
-- `files/260403_cv.pdf` - downloadable CV PDF
 
 To add a paper, copy the example from `_templates/publication.md` to a new `.md` file in `_publications/`, update the front matter, and commit the file.
 
