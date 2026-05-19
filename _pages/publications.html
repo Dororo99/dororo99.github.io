@@ -11,6 +11,12 @@ author_profile: true
 
 {% include base_path %}
 
+Publications, manuscripts, and posters will be listed here as they are added. New entries can be created from the template file in `_publications/YYYY-MM-DD-paper-title.md.example`.
+
+{% assign publication_count = site.publications | size %}
+{% if publication_count == 0 %}
+  <p>No publication entries have been added yet.</p>
+{% else %}
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -31,6 +37,6 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
+{% endif %}
 
 

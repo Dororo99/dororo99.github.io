@@ -11,54 +11,89 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. student, Department of Computer Science, Hanyang University, Seoul, Korea, Mar. 2023 - Present
+  * GPA: 3.79 / 4.5
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Sep. 2025 - Present: Research Intern, IRCV Lab, Hanyang University, Seoul, Korea
+  * Development of online mapping and topology model in an end-to-end process.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jan. 2024 - Nov. 2024: Research Intern, AAIS Lab, Hanyang University, Seoul, Korea
+  * Development of pathology foundation model.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+Project experience
+======
+* Fault-Tolerant Autonomous Driving Controller using Reinforcement Learning
+  * Project in the 2025 MATLAB AI Student Challenge.
+  * Configured a perception unit using radar and cameras.
+  * Developed an RL agent focused on collision avoidance during perception unit failures.
+  * Established a simulation environment using MATLAB and Simulink.
+
+* Development of a 2D Grid-Based Autonomous Driving Algorithm
+  * Project in SMYD Club.
+  * Applied path planning algorithms including A*, Hybrid A*, and RRT*.
+  * Implemented PID control for vehicle dynamics.
+
+* Authenticity and Reliability Inspection with SNS Evaluation
+  * Project in the 2024 KAIST Counter-Disinformation Challenge.
+  * Evaluated account confidence scores using a strict algorithm.
+  * Verified dataset similarity using GPT and BERT models.
+
+* Development of the Pathology Foundation Model
+  * Project in AAIS Lab student internship.
+  * Developed a preprocessing algorithm for large-scale pathology image slides.
+  * Improved patch extraction speed through the preprocessing algorithm.
+
+* Reconstructing objects from different backgrounds in 3D space using 3D Gaussian Splatting
+  * Graduation project.
+  * Built a custom dataset from self-captured videos.
+  * Extracted object-specific point clouds using COLMAP, Gaussian Grouping, and SAM.
+  * Improved Gaussian mixture model performance using a clustering algorithm.
+
+* Measuring product volume on a conveyor belt using a smartphone
+  * Project in the 2023 CJ Logistics Future Technology Challenge.
+  * Used image processing and computer vision techniques.
+  * Measured dimensions of stationary and moving boxes.
+
+* Shorti
+  * Peer-to-peer travel connection service.
+  * 2023 Tourism Generative Artificial Intelligence Hackathon.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: Python, C++, MATLAB/Simulink
+* Deep learning: PyTorch, TensorFlow
+* Computer vision, autonomous driving simulation, reinforcement learning, image preprocessing
 
 Publications
 ======
+{% assign publication_count = site.publications | size %}
+{% if publication_count == 0 %}
+* Publication entries will be added here.
+{% else %}
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+{% endif %}
+
+Conference and poster presentations
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* Yung-Kyun Noh, Geonho Hwang, Changbon Hyeon, "KIAS Center for AI and Natural Sciences 2024 Fall Workshop", Incheon, Korea, Nov. 2024. Poster.
   
-Teaching
+Awards
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* Grand Prize, 2024 KAIST Counter-Disinformation Challenge, KAIST, Korea, Dec. 2024
+
+English proficiency
 ======
-* Currently signed in to 43 different slack teams
+* OPIC IH, Jul. 2025
+* TOEIC 930, Jun. 2025
+
+Certifications
+======
+* Korean History Proficiency Test Level 3
+
+Download
+======
+* [CV PDF](/files/260403_cv.pdf)
