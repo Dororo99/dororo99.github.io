@@ -32,7 +32,7 @@ Project experience
 
 * Development of a 2D Grid-Based Autonomous Driving Algorithm
   * Project in SMYD Club.
-  * Applied path planning algorithms including A*, Hybrid A*, and RRT*.
+  * Applied path planning algorithms including A\*, Hybrid A\*, and RRT\*.
   * Implemented PID control for vehicle dynamics.
 
 * Authenticity and Reliability Inspection with SNS Evaluation

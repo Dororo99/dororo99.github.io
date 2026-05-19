@@ -16,7 +16,7 @@ Fault-Tolerant Autonomous Driving Controller using Reinforcement Learning
 2D Grid-Based Autonomous Driving Algorithm
 ======
 - Project in SMYD Club.
-- Applied path planning algorithms including A*, Hybrid A*, and RRT*.
+- Applied path planning algorithms including A\*, Hybrid A\*, and RRT\*.
 - Implemented PID control for vehicle dynamics.
 
 3D Gaussian Splatting Reconstruction

@@ -19,7 +19,7 @@ Selected highlights
 ======
 - Grand Prize, 2024 KAIST Counter-Disinformation Challenge.
 - Fault-tolerant autonomous driving controller using reinforcement learning for the 2025 MATLAB AI Student Challenge.
-- 2D grid-based autonomous driving algorithm with A*, Hybrid A*, RRT*, and PID control.
+- 2D grid-based autonomous driving algorithm with A\*, Hybrid A\*, RRT\*, and PID control.
 - Pathology foundation model preprocessing pipeline with improved patch extraction speed.
 
 Links
