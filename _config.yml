@@ -23,7 +23,7 @@ repository               : "Dororo99/dororo99.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :
+  avatar           : "dohyun-lim-profile.jpeg"
   name             : "DoHyun Lim"
   pronouns         : # example: "she/her"  
   bio              : "Computer Science undergraduate at Hanyang University."
