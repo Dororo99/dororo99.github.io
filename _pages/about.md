@@ -9,8 +9,8 @@ redirect_from:
 
 <section class="resume-hero" aria-labelledby="resume-hero-title">
   <p class="resume-kicker">Computer Science · Hanyang University</p>
-  <h1 id="resume-hero-title">Autonomous driving, computer vision, and applied AI systems.</h1>
-  <p class="resume-lead">I am a computer science undergraduate focused on research and engineering work across end-to-end autonomous driving, visual perception, pathology foundation models, and practical AI evaluation.</p>
+  <h1 id="resume-hero-title">Autonomous driving,<br>computer vision,<br>and applied AI systems.</h1>
+  <p class="resume-lead">I am a computer science undergraduate focused on<br>autonomous driving, computer vision,<br>pathology AI, and practical model evaluation.</p>
   <div class="resume-actions" aria-label="Primary links">
     <a class="resume-button resume-button-primary" href="/cv/"><i class="fas fa-file-lines" aria-hidden="true"></i>CV</a>
     <a class="resume-button" href="/portfolio/"><i class="fas fa-layer-group" aria-hidden="true"></i>Projects</a>
