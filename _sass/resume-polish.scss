@@ -358,12 +358,74 @@ body {
 }
 
 @media (max-width: 57.8125em) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .masthead__inner-wrap,
+  #main {
+    max-width: 100%;
+  }
+
+  .greedy-nav {
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .greedy-nav a {
+    margin-left: 0.55rem;
+    margin-right: 0.55rem;
+  }
+
+  .greedy-nav .visible-links {
+    display: flex;
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .greedy-nav .visible-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .greedy-nav .visible-links li {
+    display: block;
+    flex: 0 0 auto;
+  }
+
+  .masthead__menu-item--lg {
+    padding-right: 0.6rem;
+  }
+
+  .page,
+  .archive {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .page__inner-wrap,
+  .page__content {
+    width: 100%;
+  }
+
   .resume-hero {
     padding-top: 1.25rem;
   }
 
   .resume-hero h1 {
+    max-width: 100%;
     font-size: 1.7rem;
+    overflow-wrap: break-word;
+  }
+
+  .resume-lead,
+  .resume-section-heading p {
+    max-width: 100%;
   }
 
   .resume-focus-grid,
