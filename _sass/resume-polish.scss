@@ -470,12 +470,31 @@ body {
     padding-right: 0.9rem;
   }
 
+  .page,
+  .archive,
+  .page__inner-wrap,
+  .page__content,
+  .resume-hero,
+  .resume-section,
+  .resume-actions,
+  .resume-focus-grid,
+  .resume-highlight-list,
+  .resume-chip-row,
+  .resume-hero h1,
+  .resume-lead,
+  .resume-section-heading,
+  .resume-section-heading p {
+    width: calc(100vw - 1.8rem);
+    max-width: calc(100vw - 1.8rem);
+  }
+
   .resume-actions {
     flex-direction: column;
   }
 
   .resume-button {
-    width: 100%;
+    width: calc(100vw - 1.8rem);
+    max-width: calc(100vw - 1.8rem);
     justify-content: center;
     white-space: normal;
   }
