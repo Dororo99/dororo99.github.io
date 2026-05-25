@@ -365,7 +365,9 @@ body {
 
   .masthead__inner-wrap,
   #main {
+    width: 100%;
     max-width: 100%;
+    box-sizing: border-box;
   }
 
   .greedy-nav {
@@ -402,15 +404,29 @@ body {
   .archive {
     float: none;
     width: 100%;
+    max-width: calc(100vw - 2rem);
+    min-width: 0;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+    box-sizing: border-box;
   }
 
   .page__inner-wrap,
   .page__content {
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+  }
+
+  .resume-hero,
+  .resume-section {
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
   }
 
   .resume-hero {
@@ -420,7 +436,7 @@ body {
   .resume-hero h1 {
     max-width: 100%;
     font-size: 1.7rem;
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
   }
 
   .resume-lead,
