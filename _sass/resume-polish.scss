@@ -1,0 +1,364 @@
+/*
+   Resume polish
+   ========================================================================== */
+
+:root {
+  --resume-bg: #f8fafc;
+  --resume-surface: #ffffff;
+  --resume-surface-soft: #f3f6f8;
+  --resume-text: #1f2933;
+  --resume-muted: #667085;
+  --resume-border: #d9e2e8;
+  --resume-accent: #0f766e;
+  --resume-accent-strong: #115e59;
+  --resume-warm: #b45309;
+}
+
+body {
+  background: var(--resume-bg);
+}
+
+.masthead {
+  border-bottom: 1px solid rgba(31, 41, 51, 0.08);
+  box-shadow: 0 12px 28px rgba(31, 41, 51, 0.05);
+}
+
+#main {
+  max-width: 1120px;
+}
+
+@media (min-width: 80em) {
+  #main {
+    max-width: 1180px;
+  }
+}
+
+.page,
+.archive {
+  color: var(--resume-text);
+}
+
+.page__title {
+  color: var(--resume-text);
+}
+
+.page__content a,
+.archive a {
+  color: var(--resume-accent-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.page__content a:hover,
+.archive a:hover {
+  color: var(--resume-accent);
+}
+
+.sidebar {
+  color: var(--resume-text);
+}
+
+@media (min-width: 57.8125em) {
+  .sidebar {
+    width: 18%;
+    margin-right: 2%;
+  }
+
+  .page,
+  .archive {
+    width: 78%;
+    padding-left: 4%;
+    padding-right: 8%;
+  }
+}
+
+.sidebar .author__avatar img {
+  max-width: 112px;
+  background: var(--resume-surface);
+  box-shadow: 0 14px 30px rgba(31, 41, 51, 0.08);
+}
+
+.sidebar .author__name {
+  color: var(--resume-text);
+  font-size: 1.05em;
+}
+
+.sidebar .author__bio {
+  color: var(--resume-muted);
+}
+
+.author__urls a {
+  border-radius: 6px;
+}
+
+.author__urls a:hover {
+  background: var(--resume-surface-soft);
+  text-decoration: none;
+}
+
+.resume-hero {
+  padding: 2rem 0 1.4rem;
+  border-bottom: 1px solid var(--resume-border);
+}
+
+.resume-kicker,
+.resume-card-label {
+  margin: 0 0 0.75rem;
+  color: var(--resume-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.resume-hero h1 {
+  max-width: 760px;
+  margin: 0;
+  color: var(--resume-text);
+  font-size: 2.25rem;
+  line-height: 1.08;
+}
+
+.resume-lead {
+  max-width: 720px;
+  margin: 1rem 0 0;
+  color: var(--resume-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.3rem;
+}
+
+.resume-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.35rem;
+  padding: 0.55rem 0.8rem;
+  color: var(--resume-text);
+  text-decoration: none !important;
+  border: 1px solid var(--resume-border);
+  border-radius: 8px;
+  background: var(--resume-surface);
+  white-space: nowrap;
+}
+
+.resume-button:hover {
+  border-color: var(--resume-accent);
+  color: var(--resume-accent-strong);
+}
+
+.resume-button-primary {
+  color: #ffffff;
+  border-color: var(--resume-accent);
+  background: var(--resume-accent);
+}
+
+.resume-button-primary:hover {
+  color: #ffffff;
+  background: var(--resume-accent-strong);
+}
+
+.resume-section {
+  padding: 1.7rem 0 0;
+}
+
+.resume-section-heading {
+  margin-bottom: 0.85rem;
+}
+
+.resume-section-heading h2 {
+  margin: 0;
+  padding: 0;
+  color: var(--resume-text);
+  font-size: 1.1rem;
+  border: 0;
+}
+
+.resume-section-heading p {
+  max-width: 680px;
+  margin: 0.35rem 0 0;
+  color: var(--resume-muted);
+  font-size: 0.9rem;
+}
+
+.resume-focus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.resume-card,
+.resume-highlight-list li,
+.archive > ul,
+.page__content > ul {
+  background: var(--resume-surface);
+  border: 1px solid var(--resume-border);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(31, 41, 51, 0.04);
+}
+
+.resume-card {
+  padding: 1rem;
+}
+
+.resume-card h3 {
+  margin: 0;
+  color: var(--resume-text);
+  font-size: 0.98rem;
+}
+
+.resume-card p {
+  margin: 0.55rem 0 0;
+  color: var(--resume-muted);
+  font-size: 0.86rem;
+  line-height: 1.58;
+}
+
+.resume-highlight-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resume-highlight-list li {
+  margin: 0;
+  padding: 0.95rem 1rem;
+}
+
+.resume-highlight-list strong,
+.resume-highlight-list span {
+  display: block;
+}
+
+.resume-highlight-list strong {
+  color: var(--resume-text);
+}
+
+.resume-highlight-list span {
+  margin-top: 0.25rem;
+  color: var(--resume-muted);
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.resume-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.resume-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.85rem;
+  padding: 0.35rem 0.55rem;
+  color: var(--resume-text);
+  font-size: 0.8rem;
+  line-height: 1.2;
+  border: 1px solid var(--resume-border);
+  border-radius: 6px;
+  background: var(--resume-surface);
+}
+
+.archive > h1:not(.page__title) {
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+  color: var(--resume-text);
+  font-size: 1rem;
+}
+
+.page__content h1,
+.page__content h2,
+.archive h2 {
+  color: var(--resume-text);
+}
+
+.archive > ul,
+.page__content > ul {
+  margin-left: 0;
+  padding: 1rem 1.15rem 1rem 1.45rem;
+}
+
+.archive > ul ul,
+.page__content > ul ul {
+  margin-top: 0.5rem;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.archive li,
+.page__content li {
+  line-height: 1.65;
+}
+
+.archive > p,
+.page__content > p {
+  color: var(--resume-muted);
+}
+
+.archive .archive__item,
+.list__item .archive__item {
+  padding: 1rem;
+  border: 1px solid var(--resume-border);
+  border-radius: 8px;
+  background: var(--resume-surface);
+  box-shadow: 0 10px 24px rgba(31, 41, 51, 0.04);
+}
+
+.archive__item-title {
+  margin-top: 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  color: var(--resume-text);
+}
+
+.archive__item-title a {
+  color: var(--resume-text);
+}
+
+.archive__item-excerpt {
+  color: var(--resume-muted);
+}
+
+@media (max-width: 57.8125em) {
+  .resume-hero {
+    padding-top: 1.25rem;
+  }
+
+  .resume-hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .resume-focus-grid,
+  .resume-highlight-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 37.5em) {
+  #main {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+
+  .resume-actions {
+    flex-direction: column;
+  }
+
+  .resume-button {
+    width: 100%;
+    justify-content: center;
+    white-space: normal;
+  }
+}
