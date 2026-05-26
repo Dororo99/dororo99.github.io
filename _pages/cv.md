@@ -82,10 +82,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 {% endif %}
-
-Conference and poster presentations
-======
-* Yung-Kyun Noh, Geonho Hwang, Changbon Hyeon, "KIAS Center for AI and Natural Sciences 2024 Fall Workshop", Incheon, Korea, Nov. 2024. Poster.
   
 Awards
 ======
